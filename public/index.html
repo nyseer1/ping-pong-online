@@ -24,10 +24,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Pong Game</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <style>
+    body {
+      text-align: center;
+      background-color: ghostwhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      position: fixed;
+      width: 100%;
+    }
+  </style>
+   <body>
+    <h1>Pong Game</h1>
+    <canvas></canvas>
+    <p> Control the player by using up and down arrow keys</p>
+    <script src="./script.js"></script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
